@@ -28,6 +28,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.VskinVault" >
         <activity
+            android:name="edu.filsrouge.VskinVault.ComponentActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="edu.filsrouge.VskinVault.InscriptionActivity"
             android:exported="true" >
             <intent-filter>

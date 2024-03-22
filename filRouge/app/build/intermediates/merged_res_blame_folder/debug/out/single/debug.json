@@ -8,12 +8,8 @@
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_inscription_activity.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\inscription_activity.xml"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
@@ -24,40 +20,20 @@
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
-    },
-    {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_luckiest_guy.xml.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\luckiest_guy.xml"
-    },
-    {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_inscription.xml.flat",
@@ -72,12 +48,48 @@
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/layout_inscription_activity.xml.flat",
-        "source": "edu.filsrouge.VskinVault.app-main-34:/layout/inscription_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_login_activity.xml.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/layout_component_activity.xml.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-34:/layout/component_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/drawable_brook.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-34:/drawable/brook.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/drawable_trash.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-34:/drawable/trash.png"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_main.xml.flat",
