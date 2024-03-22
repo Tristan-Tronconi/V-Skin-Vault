@@ -24,9 +24,12 @@ id linear
 id login_button
 id password
 id password_input
+id prenomnom
+id prenomnom_input
 id showpassword
 id title
 layout activity_main
+layout inscription_activity
 layout login_activity
 mipmap ic_launcher
 mipmap ic_launcher_round

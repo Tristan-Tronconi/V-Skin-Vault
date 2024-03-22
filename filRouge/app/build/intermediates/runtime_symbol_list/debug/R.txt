@@ -3454,6 +3454,8 @@ int id percent 0x7f08015a
 int id pin 0x7f08015b
 int id position 0x7f08015c
 int id postLayout 0x7f08015d
+int id prenomnom 0x7f0801fb
+int id prenomnom_input 0x7f0801fc
 int id pressed 0x7f08015e
 int id progress_circular 0x7f08015f
 int id progress_horizontal 0x7f080160
@@ -3731,6 +3733,7 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
+int layout inscription_activity 0x7f0b006c
 int layout login_activity 0x7f0b006a
 int layout m3_alert_dialog 0x7f0b002d
 int layout m3_alert_dialog_actions 0x7f0b002e

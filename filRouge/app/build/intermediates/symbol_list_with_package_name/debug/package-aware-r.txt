@@ -3455,6 +3455,8 @@ id percent
 id pin
 id position
 id postLayout
+id prenomnom
+id prenomnom_input
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3732,6 +3734,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout inscription_activity
 layout login_activity
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
