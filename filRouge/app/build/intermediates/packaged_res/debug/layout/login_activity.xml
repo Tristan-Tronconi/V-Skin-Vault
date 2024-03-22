@@ -32,10 +32,12 @@
 
     <LinearLayout
         android:id="@+id/connexion"
-        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:orientation="vertical"
         android:background="@drawable/border"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +59,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/grisbordure"
+            android:background="@color/black"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="10dp"
@@ -89,7 +91,8 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -118,7 +121,9 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                />
         </com.google.android.material.textfield.TextInputLayout>
         <CheckBox
             android:layout_width="match_parent"
@@ -126,7 +131,6 @@
             android:text="Rester connecté"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginBottom="20dp"
             android:textSize="15sp"
             android:id="@+id/showpassword"
             app:layout_constraintEnd_toEndOf="parent"
@@ -139,7 +143,9 @@
             android:id="@+id/login_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
             app:backgroundTint="@color/turquoise"
             android:text="Se connecter"
             android:textColor="@color/black"
@@ -177,7 +183,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             app:backgroundTint="@color/grisclair"
             android:text="S'INSCRIRE"
             android:textColor="@color/black"

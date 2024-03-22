@@ -28,10 +28,6 @@
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/drawable_border.xml.flat",
-        "source": "edu.filsrouge.VskinVault.app-main-34:/drawable/border.xml"
-    },
-    {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
     },
