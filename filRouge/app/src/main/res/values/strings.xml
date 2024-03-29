@@ -2,6 +2,7 @@
     <string name="app_name">V-skin Vault</string>
     <string name="error"> value not recognised</string>
     <string name="searchbar">Barre de recherche</string>
+    <string name="validate_command">Valider la commande</string>
     <string-array name="category">
         <item>persos </item>
         <item>armes </item>
