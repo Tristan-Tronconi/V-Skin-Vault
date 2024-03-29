@@ -39,8 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
         for(int i = 0; i < categories.length; i++) {
             layouts[i]= findViewById(getResources().getIdentifier("navLayout"+i, "id", getPackageName()));
-            //images-categories[i] = (ImageView) layouts[i].getChildAt(0);
-            //images[i].setImageResource();
+            images[i] = (ImageView) layouts[i].getChildAt(0);
+            images[i].setImageResource(getResources().getIdentifier("cath_"+i, "drawable", getPackageName()));
+            images[i].setBackground(null);
             titles[i] = (TextView) layouts[i].getChildAt(1);
             titles[i].setText(categories[i]);
         }/**/
@@ -76,8 +77,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         //retour au menu principal
         ImageButton button = findViewById(R.id.profil);
+        int imageResource = getResources().getIdentifier("profil", "drawable", getPackageName());
+        if (imageResource != 0) {
+            button.setScaleType(ImageView.ScaleType.FIT_XY);
+            button.setImageResource(getResources().getIdentifier("profil", "drawable", getPackageName()));
+            button.setBackground(null);
+        }
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
