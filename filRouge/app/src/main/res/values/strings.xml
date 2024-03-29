@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">VskinVault</string>
+    <string name="app_name">V-skin Vault</string>
+    <string name="error"> value not recognised</string>
+    <string name="searchbar">Barre de recherche</string>
+    <string-array name="category">
+        <item>persos </item>
+        <item>armes </item>
+        <item>pioches </item>
+        <item>planeurs </item>
+        <item>accessoires </item>
+        <item>véhicules </item>
+    </string-array>
+
+
+    <string-array name="command">
+        <item>commande </item>
+        <item>Pseudo Fortnite </item>
+        <item>Numéro de carte bancaire</item>
+        <item>Nom du titulaire</item>
+        <item>Date d’expiration</item>
+        <item>CCV</item>
+    </string-array>
 </resources>
