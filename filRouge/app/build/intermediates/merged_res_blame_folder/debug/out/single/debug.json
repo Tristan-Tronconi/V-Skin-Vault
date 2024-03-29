@@ -1,102 +1,890 @@
 [
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_39.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_39.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_135.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_135.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_143.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_143.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_5.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_188.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_188.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_47.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_47.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_127.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_127.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_55.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_55.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_61.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_61.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_38.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_38.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_144.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_144.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_6.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_189.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_189.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_63.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_63.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_dance.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\dance.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_150.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_150.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_179.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_179.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_128.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_128.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_134.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_134.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_70.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_70.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_54.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_54.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_99.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_99.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_48.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_48.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_56.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_56.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_60.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_60.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_118.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_118.png"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_inscription_activity.xml.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\inscription_activity.xml"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_129.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_129.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_71.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_71.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_64.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_64.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_3.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_3.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_53.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_53.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_luckiest_guy.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\luckiest_guy.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_141.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_141.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_inscription.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\inscription.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_133.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_133.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_161.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_161.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_119.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_119.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_login_activity.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\login_activity.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_10.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_10.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_187.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_187.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_36.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_36.png"
     },
     {
-        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/layout_component_activity.xml.flat",
-        "source": "edu.filsrouge.VskinVault.app-main-34:/layout/component_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_49.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_49.png"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/drawable_brook.png.flat",
-        "source": "edu.filsrouge.VskinVault.app-main-34:/drawable/brook.png"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_97.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_97.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_136.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_136.png"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_20.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_20.png"
+    },
+    {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/drawable_trash.png.flat",
-        "source": "edu.filsrouge.VskinVault.app-main-34:/drawable/trash.png"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_151.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_151.png"
     },
     {
-        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_46.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_46.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_126.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_126.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_177.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_177.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_100.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_100.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_88.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_88.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_169.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_169.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_162.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_162.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_43.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_43.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_9.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_9.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_13.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_13.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_96.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_96.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_184.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_184.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_101.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_101.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_28.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_28.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_inscription.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\inscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_50.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_50.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_154.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_154.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_95.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_95.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_21.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_21.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_74.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_74.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_89.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_89.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_19.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_19.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_163.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_163.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_108.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_108.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_176.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_176.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_115.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_115.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_147.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_147.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_102.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_102.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_191.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_191.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_35.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_35.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_67.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_67.png"
     },
     {
         "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_22.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_22.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_175.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_175.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_75.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_75.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_122.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_122.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_148.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_148.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_183.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_183.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_190.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_190.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_114.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_114.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_34.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_34.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_90.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_90.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_68.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_68.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_82.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_82.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_42.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_42.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_142.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_142.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_155.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_155.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_168.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_168.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_170.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_170.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_14.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_14.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_4.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_trash.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\trash.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_107.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_107.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_27.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_27.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_62.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_62.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_105.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_105.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_69.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_69.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_24.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_24.png"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/drawable_background.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-34:/drawable/background.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_92.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_92.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_181.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_181.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_32.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_32.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_77.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_77.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_animation_start.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_animation_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_84.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_84.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_120.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_120.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_165.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_165.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_luckiest_guy.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\luckiest_guy.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_85.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_85.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_173.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_173.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_93.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_93.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_76.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_76.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_112.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_112.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_157.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_157.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_31.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_31.png"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/layout_activity_animation_start.xml.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-34:/layout/activity_animation_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_182.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_182.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_25.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_25.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_166.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_166.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_16.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_16.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_83.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_83.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_86.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_86.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_172.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_172.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_41.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_41.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_121.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_121.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_156.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_156.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_30.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_30.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_26.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_26.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_103.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_103.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_0.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_0.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_130.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_130.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_18.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_18.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_79.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_79.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_171.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_171.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_167.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_167.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_159.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_159.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_87.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_87.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_15.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_15.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_login_activity.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_106.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_106.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_110.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_110.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_23.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_23.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_174.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_174.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_149.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_149.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_91.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_91.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_40.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_40.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_123.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_123.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_33.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_33.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_59.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_59.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_164.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_164.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_139.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_139.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_81.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_81.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_113.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_113.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_94.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_94.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_124.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_124.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_73.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_73.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_58.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_58.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_116.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_116.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_109.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_109.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_66.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_66.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame000.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame000.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_1.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_146.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_146.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_8.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_8.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_brook.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\brook.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_138.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_138.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_125.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_125.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_80.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_80.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_131.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_131.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_44.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_44.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_57.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_57.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_12.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_12.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_51.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_51.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_29.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_29.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_2.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_153.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_153.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_185.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_185.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_140.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_140.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_7.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_7.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_37.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_37.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_111.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_111.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_11.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_11.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_137.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_137.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_45.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_45.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_152.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_152.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_98.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_98.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_186.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_186.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_160.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_160.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_178.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_178.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_180.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_180.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_117.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_117.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_17.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_17.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_104.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_104.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_72.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_72.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_52.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_52.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_65.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_65.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_78.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_78.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_132.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_132.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_158.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_158.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_145.png.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_145.png"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_component_activity.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\component_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dt210745\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_main.xml"
     }
 ]

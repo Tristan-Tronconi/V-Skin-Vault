@@ -30,7 +30,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.VskinVault" >
         <activity
-            android:name="edu.filsrouge.VskinVault.ComponentActivity"
+            android:name="edu.filsrouge.VskinVault.animationStart"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,24 +38,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="edu.filsrouge.VskinVault.ComponentActivity"
+            android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.InscriptionActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.LoginActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.MainActivity"
             android:exported="true" >

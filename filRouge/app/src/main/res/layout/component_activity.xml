@@ -48,7 +48,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/brook"
+                android:src="@drawable/frame_0"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/nom"
