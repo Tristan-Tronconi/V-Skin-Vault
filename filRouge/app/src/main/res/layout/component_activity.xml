@@ -44,7 +44,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:id="@+id/component"
             android:background="#e4e4e4"
-            android:
             >
             <ImageView
                 android:layout_width="150dp"
