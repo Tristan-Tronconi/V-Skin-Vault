@@ -77,9 +77,11 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array category
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array command
 array preloaded_fonts
 attr SharedValue
 attr SharedValueId
@@ -523,6 +525,10 @@ attr errorIconTintMode
 attr errorShown
 attr errorTextAppearance
 attr errorTextColor
+attr exampleColor
+attr exampleDimension
+attr exampleDrawable
+attr exampleString
 attr expandActivityOverflowButtonDrawable
 attr expanded
 attr expandedHintEnabled
@@ -1432,10 +1438,15 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray_400
+color gray_600
 color grisbordure
 color grisclair
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_blue_400
+color light_blue_600
+color lightblue
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2097,6 +2108,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3002,6 +3014,12 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cath_0
+drawable cath_1
+drawable cath_2
+drawable cath_3
+drawable cath_4
+drawable cath_5
 drawable dance
 drawable design_fab_background
 drawable design_ic_visibility
@@ -3127,6 +3145,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable nav_gradiant
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3140,10 +3159,18 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profil
+drawable radius
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trash
+font alfa_slab_one
+font inter
+font inter_bold
+font inter_medium
+font inter_semibold
+font inter_thin
 font luckiest_guy
 id ALT
 id BOTTOM_END
@@ -3216,6 +3243,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addToCart
 id alertTitle
 id alignBounds
 id alignMargins
@@ -3252,9 +3280,11 @@ id callMeasure
 id cancel_button
 id carryVelocity
 id categorie
+id category
 id center
 id centerCrop
 id centerInside
+id centerTitle
 id center_horizontal
 id center_vertical
 id chain
@@ -3296,6 +3326,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3357,6 +3388,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id gridLayoutCathegories
 id group_divider
 id grouping
 id groups
@@ -3393,8 +3425,10 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout_center
 id listMode
 id list_item
+id listitemrating
 id login_button
 id m3_side_sheet
 id marquee
@@ -3456,6 +3490,14 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id navLayout
+id navLayout0
+id navLayout1
+id navLayout2
+id navLayout3
+id navLayout4
+id navLayout5
+id navTitle
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3496,6 +3538,7 @@ id outline
 id outward
 id overshoot
 id packed
+id panier
 id parallax
 id parent
 id parentPanel
@@ -3514,7 +3557,9 @@ id postLayout
 id prenomnom
 id prenomnom_input
 id pressed
+id price
 id prix
+id profil
 id progress_circular
 id progress_horizontal
 id radio
@@ -3539,6 +3584,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBar
+id searchBarLayout
 id search_badge
 id search_bar
 id search_button
@@ -3608,10 +3655,20 @@ id tag_window_insets_animation_callback
 id text
 id text2
 id textEnd
+id textInputLayout1
+id textInputLayout2
+id textInputLayout3
+id textInputLayout4
+id textInputLayout5
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView1
+id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3643,6 +3700,11 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id value1
+id value2
+id value3
+id value4
+id value5
 id vertical
 id vertical_only
 id view_offset_helper
@@ -3777,6 +3839,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_animation_start
+layout activity_command
+layout activity_details
 layout activity_main
 layout component_activity
 layout custom_dialog
@@ -3901,6 +3965,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string error
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3909,6 +3974,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string lorem
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4015,12 +4081,14 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string searchbar
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string validate_command
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5139,6 +5207,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style Widget_Theme_VskinVault_MyView
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5257,6 +5326,7 @@ styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
+styleable Rarity exampleColor exampleDimension exampleDrawable exampleString
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable ScrimInsetsFrameLayout insetForeground

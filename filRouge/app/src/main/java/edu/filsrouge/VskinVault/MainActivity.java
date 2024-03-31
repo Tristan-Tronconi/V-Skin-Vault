@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_command);
         setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.login_button);
+        ImageButton button = findViewById(R.id.profil);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,10 +86,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-        //retour au menu principal
-        ImageButton button = findViewById(R.id.profil);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

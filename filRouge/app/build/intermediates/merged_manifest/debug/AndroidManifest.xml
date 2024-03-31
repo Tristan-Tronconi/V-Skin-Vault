@@ -49,13 +49,8 @@
             android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
+        <activity android:name="edu.filsrouge.VskinVault.CommandActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
