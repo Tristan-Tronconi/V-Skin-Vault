@@ -1,0 +1,51 @@
+# Gradle files
+*/.gradle/
+*/build/
+.gradle/
+build/
+gradlew
+gradlew.bat
+gradle/
+filRouge/app/.idea
+
+# Local configuration file (sdk path, etc)
+*/local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+*/captures/
+*/.externalNativeBuild/
+*/.cxx/
+*.apk
+*/output.json
+
+# IntelliJ
+*.iml
+*/.idea/
+*/misc.xml
+*/deploymentTargetDropDown.xml
+*/render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+*/google-services.json
+
+# Android Profiling
+*.hprof
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
+*.webp
+*.ico
+*.tif
+*.tiff
