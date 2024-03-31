@@ -1,4 +1,24 @@
 <resources>
-    <string name="app_name">VskinVault</string>
-    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae finibus dolor, vitae imperdiet turpis. Phasellus non euismod ligula, non ornare nisl. Quisque ex urna, commodo vel massa et, blandit luctus eros. Phasellus imperdiet semper ipsum, ut tincidunt dolor congue nec. Cras ex dolor, posuere ut arcu in, vulputate maximus erat. Nullam semper nunc a est sollicitudin sagittis. Donec pretium egestas purus, id fermentum arcu sodales scelerisque. Etiam consequat augue aliquet, consectetur lacus vitae, bibendum est. Morbi ac tincidunt dolor, vitae condimentum urna. Phasellus sem lorem, condimentum nec metus quis, maximus elementum odio. Ut vel libero ac turpis luctus laoreet sit amet et urna. Quisque vehicula venenatis nunc, eget pulvinar libero consectetur id.</string>
+    <string name="app_name">V-skin Vault</string>
+    <string name="error"> value not recognised</string>
+    <string name="searchbar">Barre de recherche</string>
+    <string name="validate_command">Valider la commande</string>
+    <string-array name="category">
+        <item>persos </item>
+        <item>armes </item>
+        <item>pioches </item>
+        <item>planeurs </item>
+        <item>accessoires </item>
+        <item>véhicules </item>
+    </string-array>
+
+
+    <string-array name="command">
+        <item>commande </item>
+        <item>Pseudo Fortnite </item>
+        <item>Numéro de carte bancaire</item>
+        <item>Nom du titulaire</item>
+        <item>Date d’expiration</item>
+        <item>CCV</item>
+    </string-array>
 </resources>

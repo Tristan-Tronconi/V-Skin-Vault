@@ -1,65 +1,58 @@
 package edu.filsrouge.VskinVault;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputFilter;
 import android.text.Spanned;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
-import java.lang.reflect.Array;
-
-public class MainActivity extends AppCompatActivity {
-
+public class CommandActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_command);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_command);
+
+
+        InputFilter filter = new InputFilter() {
+            public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+                for (int i = start; i < end; i++) {
+                    if (Character.toString(source.charAt(i)).matches("[\\t\\n$=*+(){}/?!:;,\"<>%-]")) {return "";}
+                }
+                return null;
+            }
+        };
 
         String[] categories = getResources().getStringArray(R.array.category);
-        ///nav connexion
-        // nav pannier
-        ImageView[] images = new ImageView[6];
-        LinearLayout[] layouts = new LinearLayout[6];
         TextView[] titles = new TextView[6];
-
-        for(int i = 0; i < categories.length; i++) {
-            layouts[i]= findViewById(getResources().getIdentifier("navLayout"+i, "id", getPackageName()));
-            //images-categories[i] = (ImageView) layouts[i].getChildAt(0);
-            //images[i].setImageResource();
-            titles[i] = (TextView) layouts[i].getChildAt(1);
+        TextInputLayout[] textInputLayout = new TextInputLayout[6];
+        TextInputEditText[] textInputEditTexts = new TextInputEditText[6];
+        titles[0] = findViewById(R.id.centerTitle);
+        titles[0].setText(categories[0]);
+        titles[0].setTextSize(20);
+        for (int i = 1; i <categories.length ; i++) {
+            titles[i] = findViewById(getResources().getIdentifier("textView"+i, "id", getPackageName()));
             titles[i].setText(categories[i]);
-        }/**/
+            textInputLayout[i] = findViewById(getResources().getIdentifier("textInputLayout"+i, "id", getPackageName()));
+            textInputEditTexts[i] = findViewById(getResources().getIdentifier("value"+i, "id", getPackageName()));
+            textInputEditTexts[i].setFilters(new InputFilter[]{filter});
+
+        }
+
+        TextView button = findViewById(R.id.confirm_button);
+        button.setText(R.string.validate_command);
 
         //search bar
         TextInputLayout searchLayout = findViewById(R.id.searchBarLayout);
         searchLayout.setHintAnimationEnabled(true);
         TextInputEditText search = findViewById(R.id.searchBar);
-        InputFilter filter = new InputFilter() {
-            public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
-                for (int i = start; i < end; i++) {
-                    if (Character.toString(source.charAt(i)).matches("[\\t\\n$=*+(){}/?!:;,\"<>%-]")) {
-                        return "";
-                    }
-                }
-                return null;
-            }
-
-        };
         search.setFilters(new InputFilter[]{filter});
         //quitter la barre de recherche
         findViewById(android.R.id.content).setOnTouchListener(new View.OnTouchListener() {
@@ -75,14 +68,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
         //retour au menu principal
-        ImageButton button = findViewById(R.id.profil);
-        button.setOnClickListener(new View.OnClickListener() {
+        TextView menu = findViewById(R.id.navTitle);
+        menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Créez une nouvelle Intent pour ouvrir CommandActivity
-                Intent intent = new Intent(MainActivity.this, CommandActivity.class);
+                Intent intent = new Intent(CommandActivity.this, MainActivity.class);
 
                 // Démarrez l'activité
                 startActivity(intent);
