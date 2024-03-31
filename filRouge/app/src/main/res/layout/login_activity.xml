@@ -15,7 +15,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:background="@color/blue"
+            android:background="@drawable/nav_gradiant"
             android:id="@+id/header_title"
             >
 
@@ -185,6 +185,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 />
             <Button
+                android:id="@+id/registerbutton"
                 android:layout_width="match_parent"
                 android:layout_height="52dp"
                 android:layout_margin="10dp"

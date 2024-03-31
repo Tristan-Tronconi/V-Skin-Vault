@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.VskinVault" >
         <activity
+            android:name="edu.filsrouge.VskinVault.Panier"
+            android:exported="false" />
+        <activity
             android:name="edu.filsrouge.VskinVault.animationStart"
             android:exported="true" >
             <intent-filter>

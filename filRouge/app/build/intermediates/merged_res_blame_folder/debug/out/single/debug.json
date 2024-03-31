@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_0.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_0.png"
     },
@@ -16,20 +12,192 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_3.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_16.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_16.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_7.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_7.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_27.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_27.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_20.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_20.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_12.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_12.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_36.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_36.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_1.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_panier.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_panier.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_radius.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\radius.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_19.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_19.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout-land_activity_main.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_42.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_42.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_8.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_8.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_cath_2.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_26.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_26.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_13.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_13.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_dance.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\dance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_41.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_41.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_29.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_29.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_profil.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\profil.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_14.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_14.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_component_activity.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\component_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_2.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_thin.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_thin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_trash.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\trash.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_44.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_44.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_cath_4.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_medium.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_21.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_21.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_bold.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_luckiest_guy.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\luckiest_guy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_34.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_34.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_cath_1.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_background.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_24.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_11.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_11.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_semibold.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_semibold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_37.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_37.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_16.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_16.png"
+    },
+    {
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_31.png.flat",
@@ -48,20 +216,8 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_46.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_20.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_20.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_38.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_38.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
@@ -70,10 +226,6 @@
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_nav_gradiant.xml.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\nav_gradiant.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_12.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_12.png"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_animation_start.xml.flat",
@@ -96,52 +248,24 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_23.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_36.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_36.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_1.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_1.png"
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/layout_activity_command.xml.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-34:/layout/activity_command.xml"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_19.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_19.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_radius.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\radius.xml"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_10.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_10.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_42.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_42.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_8.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_8.png"
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_panier.png.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\panier.png"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_alfa_slab_one.xml.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\alfa_slab_one.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_cath_2.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_2.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_26.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_26.png"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_brook.png.flat",
@@ -160,10 +284,6 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_39.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_13.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_13.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\xml\\backup_rules.xml"
     },
@@ -174,14 +294,6 @@
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_dance.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\dance.xml"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_32.png.flat",
@@ -200,52 +312,12 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_22.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_41.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_41.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_border.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\border.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_29.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_29.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_profil.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\profil.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_component_activity.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\component_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_14.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_14.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_2.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_2.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_thin.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_thin.xml"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_6.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_6.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_trash.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\trash.png"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_33.png.flat",
@@ -264,32 +336,8 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_25.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_44.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_44.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_cath_4.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_4.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_medium.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_medium.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_21.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_21.png"
-    },
-    {
-        "merged": "edu.filsrouge.VskinVault.app-merged_res-32:/layout_activity_details.xml.flat",
-        "source": "edu.filsrouge.VskinVault.app-main-34:/layout/activity_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_bold.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_bold.xml"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_40.png.flat",
@@ -300,68 +348,36 @@
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_15.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_luckiest_guy.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\luckiest_guy.xml"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_3.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_3.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_28.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_28.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_34.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_34.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_30.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_30.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_cath_1.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\cath_1.png"
+        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout-land_activity_animation_start.xml.flat",
+        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout-land\\activity_animation_start.xml"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_43.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_43.png"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_background.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\background.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_activity_details.xml.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\activity_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_24.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_24.png"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\layout_inscription_activity.xml.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\layout\\inscription_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_11.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_11.png"
-    },
-    {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_18.png.flat",
         "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_18.png"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\font_inter_semibold.xml.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\font\\inter_semibold.xml"
-    },
-    {
-        "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\drawable_frame_37.png.flat",
-        "source": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-34:\\drawable\\frame_37.png"
     },
     {
         "merged": "C:\\Users\\Zeldw\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",

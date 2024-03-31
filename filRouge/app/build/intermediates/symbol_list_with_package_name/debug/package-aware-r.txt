@@ -3159,6 +3159,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable panier
 drawable profil
 drawable radius
 drawable test_level_drawable
@@ -3220,6 +3221,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id accessoires
 id actionDown
 id actionDownUp
 id actionUp
@@ -3257,6 +3259,7 @@ id animation
 id antiClockwise
 id anticipate
 id arc
+id armes
 id asConfigured
 id async
 id auto
@@ -3300,11 +3303,13 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id commander
 id component
 id compress
 id confirm_button
 id connexion
 id connexion_title
+id connexionbutton
 id constraint
 id container
 id content
@@ -3551,7 +3556,10 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id perso
 id pin
+id pioches
+id planeurs
 id position
 id postLayout
 id prenomnom
@@ -3562,10 +3570,12 @@ id prix
 id profil
 id progress_circular
 id progress_horizontal
+id putpanier
 id radio
 id rank
 id ratio
 id rectangles
+id registerbutton
 id report_drawn
 id reverseSawtooth
 id right
@@ -3700,11 +3710,13 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id valider
 id value1
 id value2
 id value3
 id value4
 id value5
+id vehicules
 id vertical
 id vertical_only
 id view_offset_helper
@@ -3842,6 +3854,7 @@ layout activity_animation_start
 layout activity_command
 layout activity_details
 layout activity_main
+layout activity_panier
 layout component_activity
 layout custom_dialog
 layout design_bottom_navigation_item

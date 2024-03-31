@@ -33,14 +33,35 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_command);
         setContentView(R.layout.activity_main);
-        ImageButton button = findViewById(R.id.profil);
-        button.setOnClickListener(new View.OnClickListener() {
+        ImageButton buttonprofil = findViewById(R.id.profil);
+        ImageButton buttonpanier = findViewById(R.id.panier);
+
+        buttonpanier.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Panier.class);
+                startActivity(intent);
+            }
+        });
+        buttonprofil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
+
+        for (int i =0; i < 6; i++) {
+            final int finalI = i;
+            findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                    intent.putExtra("category", finalI);
+                    startActivity(intent);
+                }
+            });
+        }
 
         String[] categories = getResources().getStringArray(R.array.category);
         ///nav connexion
@@ -85,16 +106,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Créez une nouvelle Intent pour ouvrir CommandActivity
-                Intent intent = new Intent(MainActivity.this, CommandActivity.class);
-
-                // Démarrez l'activité
-                startActivity(intent);
-            }
-        });/**/
+        
     }
 }
