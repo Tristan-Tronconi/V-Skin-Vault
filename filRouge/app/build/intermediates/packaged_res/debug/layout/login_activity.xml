@@ -20,10 +20,11 @@
             >
 
             <TextView
+                android:id="@+id/navTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/luckiest_guy"
-                android:text="V-skin Vault"
+                android:text="@string/app_name"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

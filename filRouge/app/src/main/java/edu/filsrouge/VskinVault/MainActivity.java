@@ -50,36 +50,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        for (int i =0; i < 6; i++) {
-            final int finalI = i;
-            findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
-                    intent.putExtra("category", finalI);
-                    startActivity(intent);
-                }
-            });
-        }
-
-        String[] categories = getResources().getStringArray(R.array.category);
-        ///nav connexion
-        // nav pannier
-        ImageView[] images = new ImageView[6];
-        LinearLayout[] layouts = new LinearLayout[6];
-        TextView[] titles = new TextView[6];
-
-        for(int i = 0; i < categories.length; i++) {
-            layouts[i]= findViewById(getResources().getIdentifier("navLayout"+i, "id", getPackageName()));
-            images[i] = (ImageView) layouts[i].getChildAt(0);
-            images[i].setImageResource(getResources().getIdentifier("cath_"+i, "drawable", getPackageName()));
-            images[i].setBackground(null);
-            titles[i] = (TextView) layouts[i].getChildAt(1);
-            titles[i].setText(categories[i]);
-        }/**/
-
-        //search bar
         TextInputLayout searchLayout = findViewById(R.id.searchBarLayout);
         searchLayout.setHintAnimationEnabled(true);
         TextInputEditText search = findViewById(R.id.searchBar);
@@ -95,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         };
         search.setFilters(new InputFilter[]{filter});
-        //quitter la barre de recherche
+        //exit search bar
         findViewById(android.R.id.content).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -108,23 +78,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //retour au menu principal
-        ImageButton button = findViewById(R.id.profil);
-        int imageResource = getResources().getIdentifier("profil", "drawable", getPackageName());
-        if (imageResource != 0) {
-            button.setScaleType(ImageView.ScaleType.FIT_XY);
-            button.setImageResource(getResources().getIdentifier("profil", "drawable", getPackageName()));
-            button.setBackground(null);
-        }
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Créez une nouvelle Intent pour ouvrir CommandActivity
-                Intent intent = new Intent(MainActivity.this, CommandActivity.class);
 
-                // Démarrez l'activité
-                startActivity(intent);
-            }
-        });/**/
+        //gestion des categories
+        String[] categories = getResources().getStringArray(R.array.category);
+        ImageView[] images = new ImageView[6];
+        LinearLayout[] layouts = new LinearLayout[6];
+        TextView[] titles = new TextView[6];
+
+        for (int i =0; i < 6; i++) {
+            final int finalI = i;
+            //onclick
+            findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                    intent.putExtra("category", finalI);
+                    startActivity(intent);
+                }
+            });
+            //affichage
+            layouts[i]= findViewById(getResources().getIdentifier("navLayout"+i, "id", getPackageName()));
+            images[i] = (ImageView) layouts[i].getChildAt(0);
+            images[i].setImageResource(getResources().getIdentifier("cath_"+i, "drawable", getPackageName()));
+            images[i].setBackground(null);
+            titles[i] = (TextView) layouts[i].getChildAt(1);
+            titles[i].setText(categories[i]);
+        }
     }
 }

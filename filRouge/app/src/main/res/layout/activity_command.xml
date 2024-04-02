@@ -9,66 +9,74 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/navLayout"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="@drawable/nav_gradiant"
-        android:gravity="top"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="6"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/navTitle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/luckiest_guy"
-            android:text="@string/app_name"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            tools:ignore="NestedWeights" />
-
-        <ImageButton
-            android:id="@+id/profil"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/ic_launcher_foreground" />
-
-        <ImageButton
-            android:text=""
-            android:id="@+id/panier"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/ic_launcher_foreground" />
-        </LinearLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/searchBarLayout"
+        <LinearLayout
+            android:id="@+id/navLayout"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:paddingStart="7dp"
-            android:paddingBottom="10dp"
-            android:paddingEnd="7dp">
+            android:layout_height="120dp"
+            android:background="@drawable/nav_gradiant"
+            android:gravity="top"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/searchBar"
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="52dp"
-                android:background="@drawable/radius"
-                android:backgroundTint="@color/white"
-                android:hint="@string/searchbar" />
-        </com.google.android.material.textfield.TextInputLayout>
-    </LinearLayout>
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/navTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/luckiest_guy"
+                    android:background="@android:color/transparent"
+                    android:text="@string/app_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    tools:ignore="NestedWeights" />
+
+                <ImageButton
+                    android:id="@+id/profil"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleY="0.6"
+                    android:scaleX="0.7"
+                    android:background="@drawable/profil" />
+
+                <ImageButton
+                    android:text=""
+                    android:id="@+id/panier"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleX="0.8"
+                    android:scaleY="0.7"
+                    android:background="@drawable/panier" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/searchBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:paddingStart="7dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="7dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/searchBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/radius"
+                    android:backgroundTint="@color/white"
+                    android:hint="@string/searchbar" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout_center"
