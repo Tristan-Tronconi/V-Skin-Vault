@@ -27,7 +27,7 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.lang.reflect.Array;
 
 public class MainActivity extends AppCompatActivity {
-
+    private RequestHandler requestHandler = new RequestHandler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
