@@ -29,6 +29,16 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
 import java.lang.reflect.Array;
+import java.util.concurrent.TimeUnit;
+
+import androidx.work.OneTimeWorkRequest;
+import androidx.work.PeriodicWorkRequest;
+import androidx.work.WorkManager;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Intent;
+import android.os.SystemClock;
+
 
 public class MainActivity extends AppCompatActivity {
     private RequestHandler requestHandler = new RequestHandler();
@@ -151,5 +161,14 @@ public class MainActivity extends AppCompatActivity {
             titles[i] = (TextView) layouts[i].getChildAt(1);
             titles[i].setText(categories[i]);
         }
+
+        //Notification
+        PeriodicWorkRequest notificationRequest = new PeriodicWorkRequest.Builder(NotificationWorker.class, 15, TimeUnit.MINUTES)
+                .build();
+
+        WorkManager.getInstance().enqueue(notificationRequest);
+
+
+
     }
 }

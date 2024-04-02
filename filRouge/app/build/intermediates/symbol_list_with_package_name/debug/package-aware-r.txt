@@ -1346,7 +1346,10 @@ attr yearStyle
 attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool enable_system_alarm_service_default
+bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
+bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -3019,7 +3022,6 @@ drawable cath_0
 drawable cath_1
 drawable cath_2
 drawable cath_3
-drawable cath_4
 drawable cath_5
 drawable dance
 drawable design_fab_background
@@ -3167,6 +3169,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trash
+drawable vskinvault
 font alfa_slab_one
 font inter
 font inter_bold

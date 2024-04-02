@@ -87,7 +87,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/component"
-            android:background="#e4e4e4"
+            android:background="@drawable/border"
+
             >
             <ImageView
                 android:layout_width="150dp"
