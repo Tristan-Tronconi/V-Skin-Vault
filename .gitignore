@@ -31,3 +31,15 @@
 
 # Android Profiling
 *.hprof
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
+*.webp
+*.ico
+*.tif
+*.tiff
