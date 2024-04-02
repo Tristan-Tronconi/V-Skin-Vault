@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-public class APIHandler {
+public class RequestHandler {
     public Product[] searchCosmetics(HashMap<String, String> params) {
 
         Product[] response = null;
@@ -108,12 +108,22 @@ public class APIHandler {
 
             // If "data" array exists and is an array
             if (dataArray != null && dataArray.isArray()) {
-                // Iterate through the array and deserialize each product
+                // Iterate through the array and convert each element to Product
                 List<Product> productList = new ArrayList<>();
-                Iterator<JsonNode> iterator = dataArray.elements();
-                while (iterator.hasNext()) {
-                    JsonNode productNode = iterator.next();
-                    Product product = objectMapper.treeToValue(productNode, Product.class);
+                for (JsonNode productNode : dataArray) {
+                    Product product = new Product(
+                            productNode.get("id").asText(),
+                            productNode.get("name").asText(),
+                            productNode.get("type").get("value").asText(),
+                            productNode.get("rarity").get("value").asText(),
+                            productNode.get("introduction").get("chapter").asText(),
+                            productNode.get("introduction").get("season").asText(),
+                            productNode.get("description").asText(),
+                            productNode.get("images").get("featured").asText(),
+                            productNode.get("images").get("icon").asText(),
+                            productNode.get("images").get("smallIcon").asText()
+                    );
+
                     productList.add(product);
                 }
                 return productList.toArray(new Product[0]);
