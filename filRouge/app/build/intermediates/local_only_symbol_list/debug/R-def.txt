@@ -26,7 +26,6 @@ color turquoise
 color white
 drawable background
 drawable border
-drawable brook
 drawable cath_0
 drawable cath_1
 drawable cath_2

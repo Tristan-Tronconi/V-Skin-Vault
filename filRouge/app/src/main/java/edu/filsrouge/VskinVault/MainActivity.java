@@ -31,7 +31,7 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.lang.reflect.Array;
 
 public class MainActivity extends AppCompatActivity {
-
+    private RequestHandler requestHandler = new RequestHandler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         }/**/
 
         //search bar
+
         TextInputLayout searchLayout = findViewById(R.id.searchBarLayout);
         searchLayout.setHintAnimationEnabled(true);
         TextInputEditText search = findViewById(R.id.searchBar);
@@ -118,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
         };
         search.setFilters(new InputFilter[]{filter});
-        //quitter la barre de recherche
+        //exit search bar
         findViewById(android.R.id.content).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -130,6 +131,25 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-        
+
+        for (int i =0; i < 6; i++) {
+            final int finalI = i;
+            //onclick
+            findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                    intent.putExtra("category", finalI);
+                    startActivity(intent);
+                }
+            });
+            //affichage
+            layouts[i]= findViewById(getResources().getIdentifier("navLayout"+i, "id", getPackageName()));
+            images[i] = (ImageView) layouts[i].getChildAt(0);
+            images[i].setImageResource(getResources().getIdentifier("cath_"+i, "drawable", getPackageName()));
+            images[i].setBackground(null);
+            titles[i] = (TextView) layouts[i].getChildAt(1);
+            titles[i].setText(categories[i]);
+        }
     }
 }

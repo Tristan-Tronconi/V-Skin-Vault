@@ -8,6 +8,7 @@
         android:layout_height="match_parent">
 
 
+
         <LinearLayout
             android:id="@+id/navLayout"
             android:layout_width="match_parent"
@@ -32,6 +33,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/luckiest_guy"
+                    android:background="@android:color/transparent"
                     android:text="@string/app_name"
                     android:textColor="#FFFFFF"
                     android:textSize="30sp"
@@ -41,14 +43,18 @@
                     android:id="@+id/profil"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/ic_launcher_foreground" />
+                    android:scaleY="0.6"
+                    android:scaleX="0.7"
+                    android:background="@drawable/profil" />
 
                 <ImageButton
                     android:text=""
                     android:id="@+id/panier"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/ic_launcher_foreground" />
+                    android:scaleX="0.8"
+                    android:scaleY="0.7"
+                    android:background="@drawable/panier" />
             </LinearLayout>
 
             <com.google.android.material.textfield.TextInputLayout
