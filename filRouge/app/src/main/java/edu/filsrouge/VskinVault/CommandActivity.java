@@ -14,7 +14,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
+/**
+ * La classe CommandActivity représente une activité dans l'application.
+ * Elle étend AppCompatActivity, ce qui signifie qu'elle peut utiliser les fonctionnalités de base d'une activité dans Android.
+ */
 public class CommandActivity extends AppCompatActivity {
+
+    /**
+     * Cette méthode est appelée lorsque l'activité est en train de démarrer.
+     * Elle définit la vue de contenu, initialise les éléments de l'interface utilisateur et définit les comportements pour certains événements d'interaction.
+     *
+     * @param savedInstanceState Si l'activité est en train d'être réinitialisée après avoir été précédemment arrêtée, alors ce Bundle contient les données qu'elle a le plus récemment fournies dans onSaveInstanceState(Bundle). Sinon, il est null.
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

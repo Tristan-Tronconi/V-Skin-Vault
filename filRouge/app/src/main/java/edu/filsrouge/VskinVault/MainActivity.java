@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +22,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -35,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ImageButton buttonprofil = findViewById(R.id.profil);
         ImageButton buttonpanier = findViewById(R.id.panier);
+        final Animation disapear = AnimationUtils.loadAnimation(this, R.anim.disapear);
+        final Animation rotateAnim = AnimationUtils.loadAnimation(this, R.anim.rotate);
+        //ProgressBar loadingSpinner = findViewById(R.id.loading_spinner);
 
         buttonpanier.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,10 +63,27 @@ public class MainActivity extends AppCompatActivity {
             findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
-                    intent.putExtra("category", finalI);
-                    startActivity(intent);
+                    v.startAnimation(disapear);
+                    v.setVisibility(View.INVISIBLE);
+                    //loadingSpinner.startAnimation(rotateAnim);
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                            intent.putExtra("category", finalI);
+                            startActivity(intent);
+                        }
+                    }, 500);
+
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            v.setVisibility(View.VISIBLE);
+                        }
+
+                    }, 1000);
                 }
+
             });
         }
 

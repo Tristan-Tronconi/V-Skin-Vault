@@ -35,6 +35,7 @@
                 android:textSize="30sp"
                 tools:ignore="NestedWeights" />
 
+
             <ImageButton
                 android:id="@+id/profil"
                 android:layout_width="50dp"
