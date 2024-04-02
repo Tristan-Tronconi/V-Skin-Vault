@@ -49,3 +49,6 @@ filRouge/app/.idea
 *.ico
 *.tif
 *.tiff
+
+# property files
+filRouge/app/local.properties
