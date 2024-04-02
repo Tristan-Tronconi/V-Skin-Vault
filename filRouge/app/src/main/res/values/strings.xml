@@ -3,6 +3,7 @@
     <string name="error"> value not recognised</string>
     <string name="searchbar">Barre de recherche</string>
     <string name="validate_command">Valider la commande</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis consectetur porta. Etiam risus libero, vestibulum sit amet gravida quis, pulvinar sit amet risus. Aenean luctus sodales neque ultricies ultricies.</string>
     <string-array name="category">
         <item>persos </item>
         <item>armes </item>

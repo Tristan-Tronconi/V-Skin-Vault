@@ -2,6 +2,10 @@ package edu.filsrouge.VskinVault;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,6 +33,35 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_command);
         setContentView(R.layout.activity_main);
+        ImageButton buttonprofil = findViewById(R.id.profil);
+        ImageButton buttonpanier = findViewById(R.id.panier);
+
+        buttonpanier.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Panier.class);
+                startActivity(intent);
+            }
+        });
+        buttonprofil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        for (int i =0; i < 6; i++) {
+            final int finalI = i;
+            findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                    intent.putExtra("category", finalI);
+                    startActivity(intent);
+                }
+            });
+        }
 
         String[] categories = getResources().getStringArray(R.array.category);
         ///nav connexion
@@ -74,9 +107,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-
-
 
         //retour au menu principal
         ImageButton button = findViewById(R.id.profil);
