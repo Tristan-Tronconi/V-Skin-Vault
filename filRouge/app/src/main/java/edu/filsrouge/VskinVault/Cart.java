@@ -128,8 +128,11 @@ public class Cart extends AppCompatActivity implements Clickable {
         );
 
         products.add(fakeProduct);
+        products.add(fakeProduct);
+        products.add(fakeProduct);
         adapter = new PanierAdapter(products, this);
         listview.setAdapter(adapter);
+
 
 
 
@@ -146,6 +149,7 @@ public class Cart extends AppCompatActivity implements Clickable {
         });
 
     }
+
 
     @Override
     public void onClicItem(int itemIndex) {

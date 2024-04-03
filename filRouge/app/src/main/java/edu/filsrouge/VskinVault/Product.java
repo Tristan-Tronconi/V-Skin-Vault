@@ -165,6 +165,22 @@ public class Product {
     }
 
     /**
+     * Récupère le prix du produit.
+     * @return Le prix du produit.
+     */
+    public String getPrice() {
+        return price;
+    }
+
+    /**
+     * Récupère la note du produit.
+     * @return La note du produit.
+     */
+    public String getRating() {
+        return rating;
+    }
+
+    /**
      * Définit l'identifiant du produit.
      * @param id L'identifiant du produit.
      */
@@ -242,5 +258,21 @@ public class Product {
      */
     public void setSmallIcon(String smallIcon) {
         this.smallIcon = smallIcon;
+    }
+
+    /**
+     * Définit le prix du produit.
+     * @param price Le prix du produit.
+     */
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    /**
+     * Définit la note du produit.
+     * @param rating La note du produit.
+     */
+    public void setRating(String rating) {
+        this.rating = rating;
     }
 }
