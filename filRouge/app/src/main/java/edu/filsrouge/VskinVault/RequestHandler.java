@@ -127,6 +127,7 @@ public class RequestHandler {
      */
     private Product[] convertStreamToProducts(InputStream in) {
         String json = convertStreamToString(in);
+        System.out.println("JSON: " + json); // Imprime le JSON complet
         ObjectMapper mapper = new ObjectMapper();
         Product[] products = null;
 
@@ -138,6 +139,7 @@ public class RequestHandler {
                 Iterator<JsonNode> elements = data.elements();
                 while (elements.hasNext()) {
                     JsonNode element = elements.next();
+                    String iconUrl = element.get("images").get("icon") != null ? element.get("images").get("icon").asText() : null;
                     Product product = new Product(
                             element.get("id") != null ? element.get("id").asText() : null,
                             element.get("name") != null ? element.get("name").asText() : null,
@@ -146,8 +148,8 @@ public class RequestHandler {
                             element.get("introduction").get("chapter") != null ? element.get("introduction").get("chapter").asText() : null,
                             element.get("introduction").get("season") != null ? element.get("introduction").get("season").asText() : null,
                             element.get("description") != null ? element.get("description").asText() : null,
-                            element.get("images").get("icon") != null ? element.get("images").get("icon").asText() : null,
                             element.get("images").get("featured") != null ? element.get("images").get("featured").asText() : null,
+                            iconUrl,
                             element.get("images").get("smallIcon") != null ? element.get("images").get("smallIcon").asText() : null
                     );
                     productList.add(product);

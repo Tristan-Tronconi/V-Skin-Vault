@@ -28,14 +28,15 @@ class ComponentonlyActivity extends ArrayAdapter<Product> {
         Product product = getItem(position);
 
         TextView name = convertView.findViewById(R.id.nom);
-        ImageView image = convertView.findViewById(R.id.image);
-
+        ImageView image = convertView.findViewById(R.id.imageView);
         name.setText(product.getName());
 
+        System.out.println("image " + image);
         // Check if the ImageView and the image URL are not null before loading the image with Picasso
         if (image != null && product.getIcon() != null) {
             Picasso.get().load(product.getIcon()).into(image);
         }
+
 
         // Update other views here if necessary
 
