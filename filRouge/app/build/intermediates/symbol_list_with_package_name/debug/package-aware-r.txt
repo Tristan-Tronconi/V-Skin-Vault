@@ -1347,6 +1347,7 @@ attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
 bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
 bool workmanager_test_configuration
@@ -3860,10 +3861,12 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_animation_start
 layout activity_command
+layout activity_component
 layout activity_details
+layout activity_inscription
+layout activity_login
 layout activity_main
 layout activity_panier
-layout component_activity
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3880,8 +3883,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout inscription_activity
-layout login_activity
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

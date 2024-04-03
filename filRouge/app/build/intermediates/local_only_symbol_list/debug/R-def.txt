@@ -170,12 +170,12 @@ id value5
 id vehicules
 layout activity_animation_start
 layout activity_command
+layout activity_component
 layout activity_details
+layout activity_inscription
+layout activity_login
 layout activity_main
 layout activity_panier
-layout component_activity
-layout inscription_activity
-layout login_activity
 layout panier_product_layout
 mipmap ic_launcher
 mipmap ic_launcher_round

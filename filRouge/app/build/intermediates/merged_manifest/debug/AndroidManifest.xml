@@ -13,6 +13,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
         android:name="edu.filsrouge.VskinVault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -39,10 +40,10 @@
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity
-            android:name="edu.filsrouge.VskinVault.Panier"
+            android:name="edu.filsrouge.VskinVault.Cart"
             android:exported="false" />
         <activity
-            android:name="edu.filsrouge.VskinVault.animationStart"
+            android:name="edu.filsrouge.VskinVault.AnimationStart"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,7 +55,7 @@
             android:name="edu.filsrouge.VskinVault.ComponentActivity"
             android:exported="false" />
         <activity
-            android:name="edu.filsrouge.VskinVault.InscriptionActivity"
+            android:name="edu.filsrouge.VskinVault.SignupActivity"
             android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.LoginActivity"
@@ -69,11 +70,22 @@
             android:resource="@array/preloaded_fonts" />
 
         <provider
-            android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="edu.filsrouge.VskinVault.workmanager-init"
-            android:directBootAware="false"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="edu.filsrouge.VskinVault.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <service
             android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
@@ -86,6 +98,11 @@
             android:enabled="@bool/enable_system_job_service_default"
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
@@ -151,25 +168,21 @@
                 <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
             </intent-filter>
         </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+            </intent-filter>
+        </receiver>
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="edu.filsrouge.VskinVault.com.squareup.picasso"
             android:exported="false" />
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="edu.filsrouge.VskinVault.androidx-startup"
-            android:exported="false" >
-            <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-                android:value="androidx.startup" />
-        </provider>
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
@@ -190,6 +203,11 @@
                 <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
     </application>
 
 </manifest>
