@@ -2,6 +2,7 @@ package edu.filsrouge.VskinVault;
 
 import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,7 +13,27 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ResultsActivity extends AppCompatActivity {
+import java.util.Arrays;
+
+public class ResultsActivity extends AppCompatActivity implements Clickable {
+    @Override
+    public void onClicItem(int itemIndex) {
+        Log.d(TAG, "Item clicked: " + itemIndex);
+        Intent intent = new Intent(ResultsActivity.this, DetailsActivity.class);
+        intent.putExtra("itemIndex", itemIndex);
+        startActivity(intent);
+    }
+
+    @Override
+    public void onRatingBarChange(int itemIndex, float value) {
+
+    }
+
+    @Override
+    public Context getContext() {
+        return getApplicationContext();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,14 +72,12 @@ public class ResultsActivity extends AppCompatActivity {
         ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, products);
         listView.setAdapter(adapter);
 
+        ProductAdapter adapter2 = new ProductAdapter(Arrays.asList(products), this);
+        listView.setAdapter(adapter2);
+
 
 
     }
 
-    public void onClicItem(int itemIndex) {
-//        Log.d(TAG, "clicked on = " + CharacterList.getDisplayedCharacter(itemIndex).getName());
-        Intent intent = new Intent(ResultsActivity.this, DetailsActivity.class);
-        intent.putExtra("itemIndex", itemIndex);
-        startActivity(intent);
-    }
+
 }
