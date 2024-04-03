@@ -12,10 +12,17 @@ import okhttp3.Callback;
 
 public class DetailsActivity extends AppCompatActivity{
     private RequestHandler requestHandler = new RequestHandler();
-    private Product product;
+    private Product[] product;
 
-    public void onCreate(Bundle savedInstanceState){
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+
+        String productId = getIntent().getStringExtra("PRODUCT_ID");
+
+        // Utilisez productId pour faire une nouvelle requête avec RequestHandler
+        RequestHandler requestHandler = new RequestHandler();
+        product = requestHandler.getCosmeticInfo(productId);
     }
 }

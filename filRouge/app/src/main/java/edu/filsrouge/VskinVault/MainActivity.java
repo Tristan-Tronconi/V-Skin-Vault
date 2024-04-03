@@ -65,35 +65,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Définition du onClickListener pour chaque navLayout pour démarrer ComponentActivity avec la catégorie en extra
-        for (int i =0; i < 6; i++) {
-            final int finalI = i;
-            findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    v.startAnimation(disapear);
-                    v.setVisibility(View.INVISIBLE);
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
-                            intent.putExtra("category", finalI);
-                            startActivity(intent);
-                        }
-                    }, 500);
-
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            v.setVisibility(View.VISIBLE);
-                        }
-
-                    }, 1000);
-                }
-
-            });
-        }
-
         // Initialisation des catégories, images, layouts et titres
         String[] categories = getResources().getStringArray(R.array.category);
         ImageView[] images = new ImageView[6];
@@ -144,9 +115,24 @@ public class MainActivity extends AppCompatActivity {
             findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
-                    intent.putExtra("category", finalI);
-                    startActivity(intent);
+                    v.startAnimation(disapear);
+                    v.setVisibility(View.INVISIBLE);
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
+                            intent.putExtra("category", finalI);
+                            startActivity(intent);
+                        }
+                    }, 500);
+
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            v.setVisibility(View.VISIBLE);
+                        }
+
+                    }, 1000);
                 }
             });
             layouts[i]= findViewById(getResources().getIdentifier("navLayout"+i, "id", getPackageName()));

@@ -1,7 +1,13 @@
 package edu.filsrouge.VskinVault;
 
+import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -44,5 +50,15 @@ public class ResultsActivity extends AppCompatActivity {
         Product[] products = {p1,p2};
         ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, products);
         listView.setAdapter(adapter);
+
+
+
+    }
+
+    public void onClicItem(int itemIndex) {
+//        Log.d(TAG, "clicked on = " + CharacterList.getDisplayedCharacter(itemIndex).getName());
+        Intent intent = new Intent(ResultsActivity.this, DetailsActivity.class);
+        intent.putExtra("itemIndex", itemIndex);
+        startActivity(intent);
     }
 }

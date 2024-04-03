@@ -60,6 +60,7 @@
         <activity
             android:name="edu.filsrouge.VskinVault.LoginActivity"
             android:exported="false" />
+        <activity android:name="edu.filsrouge.VskinVault.DetailsActivity" />
         <activity
             android:name="edu.filsrouge.VskinVault.MainActivity"
             android:exported="true" >
