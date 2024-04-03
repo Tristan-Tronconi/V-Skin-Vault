@@ -44,15 +44,15 @@
             android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.AnimationStart"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false" >
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name="edu.filsrouge.VskinVault.ComponentActivity"
+            android:name="edu.filsrouge.VskinVault.ResultsActivity"
             android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.SignupActivity"
@@ -62,7 +62,13 @@
             android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.MainActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="edu.filsrouge.VskinVault.CommandActivity" />
 
         <meta-data

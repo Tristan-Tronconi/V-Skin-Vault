@@ -1,9 +1,12 @@
 package edu.filsrouge.VskinVault;
 
+import java.util.Random;
+
 /**
  * La classe Product représente un produit dans l'application VskinVault.
  * Chaque produit a un id, un nom, un type, une rareté, un chapitre,
- * une saison, une description, une image, une icône et une petite icône.
+ * une saison, une description, une image, une icône, une petite icône,
+ * un prix et une note.
  */
 public class Product {
     private String id;
@@ -16,6 +19,10 @@ public class Product {
     private String image;
     private String icon;
     private String smallIcon;
+
+    private String price;
+
+    private String rating;
 
     /**
      * Constructeur pour la classe Product.
@@ -41,6 +48,38 @@ public class Product {
         this.image = image;
         this.icon = icon;
         this.smallIcon = smallIcon;
+        this.price = calcPrice();
+        this.rating = calcRating();
+    }
+
+    /**
+     * Calcule le prix du produit.
+     * @return Le prix du produit.
+     */
+    private String calcPrice() {
+        switch (rarity) {
+            case "Common":
+                return "1";
+            case "Uncommon":
+                return "3";
+            case "Rare":
+                return "5";
+            case "Epic":
+                return "10";
+            case "Legendary":
+                return "25";
+            default:
+                return "0";
+        }
+    }
+
+    /**
+     * Calcule la note du produit.
+     * @return La note du produit.
+     */
+    private String calcRating() {
+        Random random = new Random();
+        return String.valueOf(random.nextFloat()*2+3);
     }
 
     // Les getters et setters pour chaque champ de la classe Product
