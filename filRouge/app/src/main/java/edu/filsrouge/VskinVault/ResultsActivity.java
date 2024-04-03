@@ -13,14 +13,19 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ResultsActivity extends AppCompatActivity implements Clickable {
+
+    private ArrayList<Product> products = new ArrayList<>();
     @Override
     public void onClicItem(int itemIndex) {
         Log.d(TAG, "Item clicked: " + itemIndex);
         Intent intent = new Intent(ResultsActivity.this, DetailsActivity.class);
-        intent.putExtra("itemIndex", itemIndex);
+        // Use the product ID instead of the item index
+        String productId = products.get(itemIndex).getId();
+        intent.putExtra("PRODUCT_ID", productId);
         startActivity(intent);
     }
 
@@ -43,6 +48,11 @@ public class ResultsActivity extends AppCompatActivity implements Clickable {
 
         RequestHandler requestHandler = new RequestHandler();
 
+        Product p1 = new Product("CID_102_Athena_Commando_M_Raven","Raven","Backpack","Legendary","1","1","A btestststackpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
+        Product p2 = new Product("CID_102_Athena_Commando_M_Raven","Raven","Backpack","Legendary","1","1","A backpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
+
+        products.addAll(Arrays.asList(new Product[]{p1, p2}));
+
         /*class myTask extends AsyncTask<Void, Void, Void> {
             @Override
             protected Void doInBackground(Void... voids) {
@@ -64,15 +74,10 @@ public class ResultsActivity extends AppCompatActivity implements Clickable {
 
         myTask task = new myTask();
         task.execute();*/
-
-        Product p1 = new Product("1","Raven","Backpack","Legendary","1","1","A backpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
-        Product p2 = new Product("2","Raven","Backpack","Legendary","1","1","A backpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
-
-        Product[] products = {p1,p2};
-        ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, products);
+        ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, products.toArray(new Product[0]));
         listView.setAdapter(adapter);
 
-        ProductAdapter adapter2 = new ProductAdapter(Arrays.asList(products), this);
+        ProductAdapter adapter2 = new ProductAdapter(products, this);
         listView.setAdapter(adapter2);
 
 

@@ -78,7 +78,7 @@ public class RequestHandler {
      * @param id L'identifiant du produit à rechercher.
      * @return Un tableau contenant le produit correspondant à l'identifiant spécifié.
      */
-    public Product[]  getCosmeticInfo(String id) {
+    public Product getCosmeticInfo(String id) {
         Product[] response = null;
         String reqUrl="https://fortnite-api.com/v2/cosmetics/br/"+id;
         try {
@@ -91,7 +91,7 @@ public class RequestHandler {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        return response;
+        return response[0];
     }
 
     /**
@@ -116,6 +116,7 @@ public class RequestHandler {
                 e.printStackTrace();
             }
         }
+        System.out.println(sb.toString());
         return sb.toString();
     }
 
@@ -126,45 +127,39 @@ public class RequestHandler {
      */
     private Product[] convertStreamToProducts(InputStream in) {
         String json = convertStreamToString(in);
+        ObjectMapper mapper = new ObjectMapper();
+        Product[] products = null;
+
         try {
-            // Create ObjectMapper instance
-            ObjectMapper objectMapper = new ObjectMapper();
-
-            // Read JSON as tree
-            JsonNode rootNode = objectMapper.readTree(json);
-
-            // Get the "data" array from the JSON
-            JsonNode dataArray = rootNode.get("data");
-
-            // If "data" array exists and is an array
-            if (dataArray != null && dataArray.isArray()) {
-                // Iterate through the array and convert each element to Product
+            JsonNode root = mapper.readTree(json);
+            System.out.println("ok1 "+root.toString());
+            JsonNode data = root.get("data");
+            System.out.println("ok2 "+data.toString());
+            if (data.isArray()) {
+                System.out.println("ok3");
                 List<Product> productList = new ArrayList<>();
-                for (JsonNode productNode : dataArray) {
+                Iterator<JsonNode> elements = data.elements();
+                while (elements.hasNext()) {
+                    JsonNode element = elements.next();
                     Product product = new Product(
-                            productNode.get("id").asText(),
-                            productNode.get("name").asText(),
-                            productNode.get("type").get("value").asText(),
-                            productNode.get("rarity").get("value").asText(),
-                            productNode.get("introduction").get("chapter").asText(),
-                            productNode.get("introduction").get("season").asText(),
-                            productNode.get("description").asText(),
-                            productNode.get("images").get("featured").asText(),
-                            productNode.get("images").get("icon").asText(),
-                            productNode.get("images").get("smallIcon").asText()
+                        element.get("id").asText(),
+                        element.get("name").asText(),
+                        element.get("type").get("value").asText(),
+                        element.get("rarity").get("value").asText(),
+                        element.get("introduction").get("chapter").asText(),
+                        element.get("introduction").get("season").asText(),
+                        element.get("description").asText(),
+                        element.get("images").get("icon").asText(),
+                        element.get("images").get("featured").asText(),
+                        element.get("images").get("smallIcon").asText()
                     );
-
                     productList.add(product);
                 }
-                System.out.println(json);
-                System.out.println(productList);
-                return productList.toArray(new Product[0]);
-            } else {
-                System.out.println("No data array found in the JSON.");
+                products = productList.toArray(new Product[0]);
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+        return products;
     }
 }
