@@ -1,23 +1,31 @@
 [
     {
-        "merged": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-39:\\drawable_frame_6.png.flat",
-        "source": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-41:\\drawable\\frame_6.png"
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/drawable_frame_5.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/drawable/frame_5.png"
     },
     {
-        "merged": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-39:\\drawable_frame_18.png.flat",
-        "source": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-41:\\drawable\\frame_18.png"
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/drawable_frame_29.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/drawable/frame_29.png"
     },
     {
-        "merged": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-39:\\drawable_frame_26.png.flat",
-        "source": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-41:\\drawable\\frame_26.png"
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/drawable_frame_37.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/drawable/frame_37.png"
     },
     {
-        "merged": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-merged_res-39:\\drawable_frame_41.png.flat",
-        "source": "C:\\Users\\tt201955\\.gradle\\daemon\\8.2\\edu.filsrouge.VskinVault.app-main-41:\\drawable\\frame_41.png"
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/font_inter_semibold.xml.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/font/inter_semibold.xml"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/layout_activity_inscription.xml.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/layout/activity_inscription.xml"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/drawable_frame_30.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-41:/drawable/frame_30.png"
     },
     {
         "merged": "edu.filsrouge.VskinVault.app-merged_res-39:/layout_activity_panier.xml.flat",

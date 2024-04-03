@@ -79,7 +79,7 @@ public class PanierAdapter extends BaseAdapter {
         ObjectAnimator animator = ObjectAnimator.ofFloat(layoutItem, "translationY", 3000f, 0f);
         animator.setDuration(1000); // Durée de l'animation en millisecondes
         animator.setStartDelay(position * 200);
-        animator.start();
+
 
 
         ListView listView = (ListView) parent;
@@ -101,6 +101,7 @@ public class PanierAdapter extends BaseAdapter {
                 listView.setDivider(ContextCompat.getDrawable(callBackActivity.getContext(), android.R.drawable.divider_horizontal_dark));
             }
         });
+        animator.start();
 
         // On retourne l'item créé.
         return layoutItem;
