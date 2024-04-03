@@ -31,7 +31,7 @@
             app:layout_constraintStart_toEndOf="@id/imageView"
             android:id="@+id/nom"
             android:layout_margin="20dp"
-            android:textSize="10sp"
+            android:textSize="18sp"
             android:focusable="false"
             />
         <TextView

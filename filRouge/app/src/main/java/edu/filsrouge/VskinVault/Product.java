@@ -58,18 +58,18 @@ public class Product {
      */
     private String calcPrice() {
         switch (rarity) {
-            case "Common":
+            case "common":
                 return "1";
-            case "Uncommon":
+            case "uncommon":
                 return "3";
-            case "Rare":
+            case "rare":
                 return "5";
-            case "Epic":
+            case "epic":
                 return "10";
-            case "Legendary":
+            case "legendary":
                 return "25";
             default:
-                return "0";
+                return "25";
         }
     }
 

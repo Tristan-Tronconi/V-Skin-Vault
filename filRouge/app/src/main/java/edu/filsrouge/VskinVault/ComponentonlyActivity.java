@@ -1,5 +1,6 @@
 package edu.filsrouge.VskinVault;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ class ComponentonlyActivity extends ArrayAdapter<Product> {
         super(context, 0, products);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
@@ -29,14 +31,21 @@ class ComponentonlyActivity extends ArrayAdapter<Product> {
 
         TextView name = convertView.findViewById(R.id.nom);
         ImageView image = convertView.findViewById(R.id.imageView);
-        name.setText(product.getName());
+        TextView desc = convertView.findViewById(R.id.categorie);
+        TextView price = convertView.findViewById(R.id.prix);
 
-        System.out.println("image " + image);
-        // Check if the ImageView and the image URL are not null before loading the image with Picasso
-        if (image != null && product.getIcon() != null) {
-            Picasso.get().load(product.getIcon()).into(image);
+        assert product != null;
+        price.setText(product.getPrice() + " €");
+
+        // Check if the TextViews and the ImageView are not null before setting their values
+        if (name != null && desc != null && image != null) {
+            desc.setText(product.getType()+ " - C" + product.getChapter() + "S" + product.getSeason() + " - " + product.getRarity());
+            name.setText(product.getName());
+
+            if (product.getIcon() != null) {
+                Picasso.get().load(product.getIcon()).into(image);
+            }
         }
-
 
         // Update other views here if necessary
 
