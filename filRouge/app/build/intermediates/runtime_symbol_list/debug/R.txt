@@ -3333,6 +3333,7 @@ int id decelerate 0x7f0a0098
 int id decelerateAndComplete 0x7f0a0099
 int id decor_content_parent 0x7f0a009a
 int id default_activity_button 0x7f0a009b
+int id delete 0x7f0a0233
 int id deltaRelative 0x7f0a009c
 int id dependency_ordering 0x7f0a009d
 int id desc 0x7f0a009e
@@ -3436,6 +3437,7 @@ int id line3 0x7f0a00ff
 int id linear 0x7f0a0100
 int id linearLayout_center 0x7f0a0101
 int id listMode 0x7f0a0102
+int id listView 0x7f0a0234
 int id list_item 0x7f0a0103
 int id listitemrating 0x7f0a0104
 int id login_button 0x7f0a0105
@@ -3499,6 +3501,7 @@ int id mtrl_picker_text_input_range_start 0x7f0a013e
 int id mtrl_picker_title_text 0x7f0a013f
 int id mtrl_view_tag_bottom_padding 0x7f0a0140
 int id multiply 0x7f0a0141
+int id name 0x7f0a0235
 int id navLayout 0x7f0a0142
 int id navLayout0 0x7f0a0143
 int id navLayout1 0x7f0a0144
@@ -3577,6 +3580,7 @@ int id progress_horizontal 0x7f0a018c
 int id putpanier 0x7f0a018d
 int id radio 0x7f0a018e
 int id rank 0x7f0a018f
+int id ratingBar 0x7f0a0236
 int id ratio 0x7f0a0190
 int id rectangles 0x7f0a0191
 int id registerbutton 0x7f0a0192
@@ -3707,7 +3711,6 @@ int id transition_layout_save 0x7f0a020e
 int id transition_position 0x7f0a020f
 int id transition_scene_layoutid_cache 0x7f0a0210
 int id transition_transform 0x7f0a0211
-int id trash 0x7f0a0212
 int id triangle 0x7f0a0213
 int id unchecked 0x7f0a0214
 int id uniform 0x7f0a0215
@@ -3935,6 +3938,7 @@ int layout notification_template_custom_big 0x7f0d0069
 int layout notification_template_icon_group 0x7f0d006a
 int layout notification_template_part_chronometer 0x7f0d006b
 int layout notification_template_part_time 0x7f0d006c
+int layout panier_product_layout 0x7f0d0071
 int layout select_dialog_item_material 0x7f0d006d
 int layout select_dialog_multichoice_material 0x7f0d006e
 int layout select_dialog_singlechoice_material 0x7f0d006f

@@ -108,16 +108,20 @@ id confirm_button
 id connexion
 id connexion_title
 id connexionbutton
+id delete
 id desc
 id email
 id email_input
 id gridLayoutCathegories
 id header_title
+id image
 id imageView
 id inscription_title
 id linearLayout_center
+id listView
 id listitemrating
 id login_button
+id name
 id navLayout
 id navLayout0
 id navLayout1
@@ -140,6 +144,7 @@ id prix
 id profil
 id putpanier
 id rank
+id ratingBar
 id registerbutton
 id scroll
 id searchBar
@@ -156,7 +161,6 @@ id textView3
 id textView4
 id textView5
 id title
-id trash
 id valider
 id value1
 id value2
@@ -172,6 +176,7 @@ layout activity_panier
 layout component_activity
 layout inscription_activity
 layout login_activity
+layout panier_product_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

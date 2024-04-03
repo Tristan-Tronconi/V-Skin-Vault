@@ -3334,6 +3334,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id desc
@@ -3437,6 +3438,7 @@ id line3
 id linear
 id linearLayout_center
 id listMode
+id listView
 id list_item
 id listitemrating
 id login_button
@@ -3500,6 +3502,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navLayout
 id navLayout0
 id navLayout1
@@ -3578,6 +3581,7 @@ id progress_horizontal
 id putpanier
 id radio
 id rank
+id ratingBar
 id ratio
 id rectangles
 id registerbutton
@@ -3708,7 +3712,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id trash
 id triangle
 id unchecked
 id uniform
@@ -3936,6 +3939,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout panier_product_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
