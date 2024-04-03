@@ -33,8 +33,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.VskinVault" >
-        <receiver android:name="edu.filsrouge.VskinVault.NotificationBroadcastReceiver" />
-
         <service
             android:name="edu.filsrouge.VskinVault.NotificationWorker"
             android:exported="true"

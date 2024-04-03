@@ -167,8 +167,5 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         WorkManager.getInstance().enqueue(notificationRequest);
-
-
-
     }
 }
