@@ -11,9 +11,9 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_activity);
+        setContentView(R.layout.activity_login);
 
-        Intent intent = new Intent(LoginActivity.this, InscriptionActivity.class);
+        Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
         Button registerButton = findViewById(R.id.registerbutton);
         registerButton.setOnClickListener(v -> {
             startActivity(intent);

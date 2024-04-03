@@ -9,10 +9,10 @@ import android.os.Handler;
 import android.widget.ImageView;
 
 /**
- * La classe animationStart représente l'animation de démarrage de l'application.
+ * La classe AnimationStart représente l'animation de démarrage de l'application.
  * Elle étend AppCompatActivity, ce qui signifie qu'elle peut utiliser les fonctionnalités de base d'une activité dans Android.
  */
-public class animationStart extends AppCompatActivity {
+public class AnimationStart extends AppCompatActivity {
     AnimationDrawable animation;
 
     /**
@@ -30,7 +30,7 @@ public class animationStart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animation_start);
 
-        Intent intent = new Intent(animationStart.this, MainActivity.class);
+        Intent intent = new Intent(AnimationStart.this, MainActivity.class);
         ImageView anim = findViewById(R.id.animation);
         anim.setBackgroundResource(R.drawable.dance);
         animation = (AnimationDrawable) anim.getBackground();
