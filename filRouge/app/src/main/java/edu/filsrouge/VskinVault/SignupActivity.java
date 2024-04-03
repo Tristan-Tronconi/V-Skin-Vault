@@ -8,13 +8,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class InscriptionActivity extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inscription_activity);
+        setContentView(R.layout.activity_inscription);
 
-        Intent intent = new Intent(InscriptionActivity.this, LoginActivity.class);
+        Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
         Button connexionbutton = findViewById(R.id.connexionbutton);
 
         connexionbutton.setOnClickListener(v -> {
@@ -26,7 +26,7 @@ public class InscriptionActivity extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InscriptionActivity.this, MainActivity.class);
+                Intent intent = new Intent(SignupActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });/**/

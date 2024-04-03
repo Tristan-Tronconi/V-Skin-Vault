@@ -22,10 +22,10 @@
             android:permission="android.permission.BIND_JOB_SERVICE"
             android:exported="true"/>
         <activity
-            android:name=".Panier"
+            android:name=".Cart"
             android:exported="false" />
         <activity
-            android:name=".animationStart"
+            android:name=".AnimationStart"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +37,7 @@
             android:name=".ComponentActivity"
             android:exported="false" />
         <activity
-            android:name=".InscriptionActivity"
+            android:name=".SignupActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
