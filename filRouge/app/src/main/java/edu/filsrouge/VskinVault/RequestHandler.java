@@ -14,9 +14,17 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * La classe RequestHandler gère les requêtes HTTP pour récupérer les informations sur les produits.
+ */
 public class RequestHandler {
-    public Product[] searchCosmetics(HashMap<String, String> params) {
 
+    /**
+     * Recherche des produits cosmétiques en fonction des paramètres spécifiés.
+     * @param params Les paramètres de recherche.
+     * @return Un tableau de produits correspondant aux critères de recherche.
+     */
+    public Product[] searchCosmetics(HashMap<String, String> params) {
         Product[] response = null;
         String reqUrl="https://fortnite-api.com/v2/cosmetics/br/search/all";
 
@@ -31,33 +39,45 @@ public class RequestHandler {
         }
 
         try {
-            System.out.println("Request URL: " + reqUrl); //TODO remove
-
             URL url = new URL(reqUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
-
             InputStream in = new BufferedInputStream(conn.getInputStream());
             response = convertStreamToProducts(in);
         } catch (Exception e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
 
         return response;
     }
 
+    /**
+     * Recherche des produits cosmétiques par nom.
+     * @param name Le nom du produit à rechercher.
+     * @return Un tableau de produits correspondant au nom spécifié.
+     */
     public Product[]  searchCosmeticsByName(String name) {
         return searchCosmetics(new HashMap<String, String>() {{
             put("name", name);
         }});
     }
 
+    /**
+     * Recherche des produits cosmétiques par type.
+     * @param type Le type de produit à rechercher.
+     * @return Un tableau de produits correspondant au type spécifié.
+     */
     public Product[] searchCosmeticsByType(String type) {
         return searchCosmetics(new HashMap<String, String>() {{
             put("type", type);
         }});
     }
 
+    /**
+     * Récupère les informations sur un produit cosmétique spécifique.
+     * @param id L'identifiant du produit à rechercher.
+     * @return Un tableau contenant le produit correspondant à l'identifiant spécifié.
+     */
     public Product[]  getCosmeticInfo(String id) {
         Product[] response = null;
         String reqUrl="https://fortnite-api.com/v2/cosmetics/br/"+id;
@@ -74,6 +94,11 @@ public class RequestHandler {
         return response;
     }
 
+    /**
+     * Convertit un flux d'entrée en une chaîne de caractères.
+     * @param in Le flux d'entrée à convertir.
+     * @return La chaîne de caractères correspondant au flux d'entrée.
+     */
     private String convertStreamToString(InputStream in) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
         StringBuilder sb = new StringBuilder();
@@ -94,6 +119,11 @@ public class RequestHandler {
         return sb.toString();
     }
 
+    /**
+     * Convertit un flux d'entrée en un tableau de produits.
+     * @param in Le flux d'entrée à convertir.
+     * @return Un tableau de produits correspondant au flux d'entrée.
+     */
     private Product[] convertStreamToProducts(InputStream in) {
         String json = convertStreamToString(in);
         try {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "edu.filsrouge.VskinVault.app-mergeDebugResources-32:/values-mr/values-mr.xml",
+            "outputFile": "edu.filsrouge.VskinVault.app-mergeDebugResources-37:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\dt210745\\.gradle\\caches\\transforms-3\\7bf998f9f4bdd84f156fbe08c4253964\\transformed\\material-1.11.0\\res\\values-mr\\values-mr.xml",

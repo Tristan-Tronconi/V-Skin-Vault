@@ -2,8 +2,6 @@ package edu.filsrouge.VskinVault;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
-import android.media.Image;
 import android.widget.ImageButton;
 import android.widget.Toast;
 import android.app.AlertDialog;
@@ -16,7 +14,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.res.ResourcesCompat;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -47,7 +44,7 @@ public class CommandActivity extends AppCompatActivity {
         buttonpanier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CommandActivity.this, Panier.class);
+                Intent intent = new Intent(CommandActivity.this, Cart.class);
                 startActivity(intent);
             }
         });

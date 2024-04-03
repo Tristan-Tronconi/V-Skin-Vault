@@ -10,7 +10,7 @@ public class ResultsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.component_activity);
+        setContentView(R.layout.activity_component);
 
         ListView listView = findViewById(R.id.listView);
 

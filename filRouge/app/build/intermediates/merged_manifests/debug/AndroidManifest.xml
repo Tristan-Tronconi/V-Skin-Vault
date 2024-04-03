@@ -40,16 +40,14 @@
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity
-            android:name="edu.filsrouge.VskinVault.Panier"
+            android:name="edu.filsrouge.VskinVault.Cart"
             android:exported="false" />
         <activity
-            android:name="edu.filsrouge.VskinVault.animationStart"
+            android:name="edu.filsrouge.VskinVault.AnimationStart"
             android:exported="false" >
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
@@ -57,7 +55,7 @@
             android:name="edu.filsrouge.VskinVault.ResultsActivity"
             android:exported="false" />
         <activity
-            android:name="edu.filsrouge.VskinVault.InscriptionActivity"
+            android:name="edu.filsrouge.VskinVault.SignupActivity"
             android:exported="false" />
         <activity
             android:name="edu.filsrouge.VskinVault.LoginActivity"
@@ -77,10 +75,6 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="edu.filsrouge.VskinVault.com.squareup.picasso"
-            android:exported="false" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="edu.filsrouge.VskinVault.androidx-startup"
@@ -190,6 +184,12 @@
                 <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
             </intent-filter>
         </receiver>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="edu.filsrouge.VskinVault.com.squareup.picasso"
+            android:exported="false" />
+
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:directBootAware="false"
