@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                            Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
                             intent.putExtra("category", finalI);
                             startActivity(intent);
                         }
@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
             findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
                     intent.putExtra("category", finalI);
                     startActivity(intent);
                 }
