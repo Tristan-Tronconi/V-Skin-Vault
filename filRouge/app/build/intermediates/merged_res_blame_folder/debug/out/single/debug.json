@@ -232,6 +232,10 @@
         "source": "edu.filsrouge.VskinVault.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-34:/layout_componentonly_layout.xml.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-36:/layout/componentonly_layout.xml"
+    },
+    {
         "merged": "edu.filsrouge.VskinVault.app-merged_res-34:/drawable_frame_44.png.flat",
         "source": "edu.filsrouge.VskinVault.app-main-36:/drawable/frame_44.png"
     },
@@ -338,6 +342,10 @@
     {
         "merged": "edu.filsrouge.VskinVault.app-merged_res-34:/font_inter_semibold.xml.flat",
         "source": "edu.filsrouge.VskinVault.app-main-36:/font/inter_semibold.xml"
+    },
+    {
+        "merged": "edu.filsrouge.VskinVault.app-merged_res-34:/drawable_cath_4.png.flat",
+        "source": "edu.filsrouge.VskinVault.app-main-36:/drawable/cath_4.png"
     },
     {
         "merged": "edu.filsrouge.VskinVault.app-merged_res-34:/drawable_trash.png.flat",

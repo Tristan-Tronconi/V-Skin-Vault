@@ -126,6 +126,8 @@ public class RequestHandler {
 
                     productList.add(product);
                 }
+                System.out.println(json);
+                System.out.println(productList);
                 return productList.toArray(new Product[0]);
             } else {
                 System.out.println("No data array found in the JSON.");

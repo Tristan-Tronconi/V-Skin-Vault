@@ -8,36 +8,23 @@ import android.os.Handler;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
 import android.text.InputFilter;
 import android.text.Spanned;
-import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
-import java.lang.reflect.Array;
 import java.util.concurrent.TimeUnit;
 
-import androidx.work.OneTimeWorkRequest;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.Intent;
-import android.os.SystemClock;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -79,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                            Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
                             intent.putExtra("category", finalI);
                             startActivity(intent);
                         }
@@ -148,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
             findViewById(getResources().getIdentifier("navLayout" + i, "id", getPackageName())).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this, ComponentActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
                     intent.putExtra("category", finalI);
                     startActivity(intent);
                 }

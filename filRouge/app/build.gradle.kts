@@ -44,4 +44,6 @@ dependencies {
     implementation ("com.fasterxml.jackson.core:jackson-annotations:2.10.3")
     implementation ("com.squareup.picasso:picasso:2.71828")
     implementation ("androidx.work:work-runtime-ktx:2.0.1")
+    implementation ("android.arch.work:work-runtime-ktx:1.0.1")
+    implementation ("androidx.work:work-runtime:2.7.0")
 }

@@ -30,6 +30,7 @@ drawable cath_0
 drawable cath_1
 drawable cath_2
 drawable cath_3
+drawable cath_4
 drawable cath_5
 drawable dance
 drawable frame_0
@@ -115,6 +116,7 @@ id header_title
 id imageView
 id inscription_title
 id linearLayout_center
+id listView
 id listitemrating
 id login_button
 id navLayout
@@ -137,7 +139,6 @@ id prenomnom_input
 id price
 id prix
 id profil
-id putpanier
 id rank
 id registerbutton
 id scroll
@@ -169,6 +170,7 @@ layout activity_details
 layout activity_main
 layout activity_panier
 layout component_activity
+layout componentonly_layout
 layout inscription_activity
 layout login_activity
 mipmap ic_launcher

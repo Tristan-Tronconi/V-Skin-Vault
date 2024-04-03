@@ -1347,6 +1347,7 @@ attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
 bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
 bool workmanager_test_configuration
@@ -3022,6 +3023,7 @@ drawable cath_0
 drawable cath_1
 drawable cath_2
 drawable cath_3
+drawable cath_4
 drawable cath_5
 drawable dance
 drawable design_fab_background
@@ -3436,6 +3438,7 @@ id line3
 id linear
 id linearLayout_center
 id listMode
+id listView
 id list_item
 id listitemrating
 id login_button
@@ -3574,7 +3577,6 @@ id prix
 id profil
 id progress_circular
 id progress_horizontal
-id putpanier
 id radio
 id rank
 id ratio
@@ -3860,6 +3862,7 @@ layout activity_details
 layout activity_main
 layout activity_panier
 layout component_activity
+layout componentonly_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
