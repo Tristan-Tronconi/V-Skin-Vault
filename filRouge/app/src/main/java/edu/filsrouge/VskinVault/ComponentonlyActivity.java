@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.squareup.picasso.Picasso;
+
 class ComponentonlyActivity extends ArrayAdapter<Product> {
     ComponentonlyActivity(Context context, Product[] products) {
         super(context, 0, products);
@@ -26,9 +28,16 @@ class ComponentonlyActivity extends ArrayAdapter<Product> {
         Product product = getItem(position);
 
         TextView name = convertView.findViewById(R.id.nom);
+        ImageView image = convertView.findViewById(R.id.image);
+
         name.setText(product.getName());
 
-        // Mettez à jour d'autres vues ici si nécessaire
+        // Check if the ImageView and the image URL are not null before loading the image with Picasso
+        if (image != null && product.getIcon() != null) {
+            Picasso.get().load(product.getIcon()).into(image);
+        }
+
+        // Update other views here if necessary
 
         return convertView;
     }

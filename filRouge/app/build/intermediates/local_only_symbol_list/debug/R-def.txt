@@ -30,7 +30,6 @@ drawable cath_0
 drawable cath_1
 drawable cath_2
 drawable cath_3
-drawable cath_4
 drawable cath_5
 drawable dance
 drawable frame_0

@@ -48,32 +48,31 @@ public class ResultsActivity extends AppCompatActivity implements Clickable {
 
         RequestHandler requestHandler = new RequestHandler();
 
-        Product p1 = new Product("CID_102_Athena_Commando_M_Raven","Raven","Backpack","Legendary","1","1","A btestststackpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
-        Product p2 = new Product("CID_102_Athena_Commando_M_Raven","Raven","Backpack","Legendary","1","1","A backpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
+//        Product p1 = new Product("CID_102_Athena_Commando_M_Raven","Raven","Backpack","Legendary","1","1","A btestststackpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
+//        Product p2 = new Product("CID_102_Athena_Commando_M_Raven","Raven","Backpack","Legendary","1","1","A backpack","https://fortnite-api.com/images/cosmetics/br/backpack_abstractmirror/icon.png","icon","smallIcon");
 
-        products.addAll(Arrays.asList(new Product[]{p1, p2}));
+//        products.addAll(Arrays.asList(new Product[]{p1, p2}));
 
-        /*class myTask extends AsyncTask<Void, Void, Void> {
+        class myTask extends AsyncTask<Void, Void, Product[]> {
             @Override
-            protected Void doInBackground(Void... voids) {
-                Product[] products = requestHandler.searchCosmeticsByType("backpack");
+            protected Product[] doInBackground(Void... voids) {
+                return requestHandler.searchCosmeticsByType("backpack");
+            }
 
-                if (products != null) {
-                    System.out.println("Products: " + products.length);
-
-                    ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, products);
+            @Override
+            protected void onPostExecute(Product[] result) {
+                if (result != null) {
+                    System.out.println("Products: " + result.length);
+                    ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, result);
                     listView.setAdapter(adapter);
                 } else {
                     System.out.println("No products found");
-                    System.out.println("Products: " + products.length);
                 }
-
-                return null;
             }
         }
 
         myTask task = new myTask();
-        task.execute();*/
+        task.execute();
         ComponentonlyActivity adapter = new ComponentonlyActivity(ResultsActivity.this, products.toArray(new Product[0]));
         listView.setAdapter(adapter);
 

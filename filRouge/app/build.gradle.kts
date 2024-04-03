@@ -47,4 +47,5 @@ dependencies {
     implementation ("androidx.work:work-runtime-ktx:2.0.1")
     implementation ("android.arch.work:work-runtime-ktx:1.0.1")
     implementation ("androidx.work:work-runtime:2.7.0")
+    implementation ("com.squareup.picasso:picasso:2.71828")
 }
