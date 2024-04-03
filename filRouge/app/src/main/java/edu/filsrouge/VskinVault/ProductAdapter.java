@@ -17,9 +17,9 @@ import java.util.Random;
 
 public class ProductAdapter extends BaseAdapter {
     private final String TAG = "fred " + getClass().getSimpleName();
-    private List<Product> products;
-    private LayoutInflater mInflater;
-    private Clickable callBackActivity;
+    private final List<Product> products;
+    private final LayoutInflater mInflater;
+    private final Clickable callBackActivity;
 
     public ProductAdapter(List<Product> products, Clickable callBackActivity) {
         this.products = products;
